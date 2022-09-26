@@ -42,6 +42,8 @@ type MapDatum struct {
 	CouponInfo             string           `json:"coupon_info"`
 	CouponRemainCount      int64            `json:"coupon_remain_count"`
 	CouponTotalCount       int64            `json:"coupon_total_count"`
+	CouponAmount           string           `json:"coupon_amount"`
+	CouponShareUrl         string           `json:"coupon_share_url"`
 	IncludeDxjh            string           `json:"include_dxjh"`
 	IncludeMkt             string           `json:"include_mkt"`
 	InfoDxjh               string           `json:"info_dxjh"`
